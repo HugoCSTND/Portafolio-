@@ -1,0 +1,30 @@
+body{
+    background-image:url(imagenes/fodo\ duck\ hunt.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    overflow:hidden;
+  
+}
+#duckk{
+    width: 100px;
+    position: absolute;
+    bottom: 60%;
+    animation-name: duck;
+    animation-duration: 6s;
+    animation: infinite;
+}
+#dogg{
+    width: 100px;
+    position: absolute;
+    bottom: 20%;
+    right: 50%;
+}
+@keyframes duck {
+    100%{ left: 30%;}
+    100%{ left: 60%;}
+    100%{ left: 90%;}
+    100%{ left: 100%;}
+
+}
